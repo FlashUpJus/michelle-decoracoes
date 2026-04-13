@@ -1,0 +1,72 @@
+import { useEffect, useRef, useState } from "react";
+import "../styles/carousel.css";
+
+const images = [
+  "/img/cortina-rolo-white.jpg",
+  "/img/cortina-rolo-white.jpg",
+  "/img/cortina-rolo-white.jpg",
+  "/img/cortina-rolo-white.jpg",
+  "/img/cortina-rolo-white.jpg",
+];
+
+function Carousel() {
+  const trackRef = useRef(null);
+
+  const speedRef = useRef(60); // velocidade atual (px/s)
+  const targetSpeedRef = useRef(60); // velocidade desejada
+
+  const positionRef = useRef(0);
+
+  useEffect(() => {
+    let lastTime = performance.now();
+
+    const animate = (time) => {
+      const delta = (time - lastTime) / 1000;
+      lastTime = time;
+
+      // suavização da velocidade (lerp)
+      speedRef.current += (targetSpeedRef.current - speedRef.current) * 0.05;
+
+      positionRef.current -= speedRef.current * delta;
+
+      const track = trackRef.current;
+
+      if (track) {
+        const width = track.scrollWidth / 2;
+
+        if (Math.abs(positionRef.current) >= width) {
+          positionRef.current = 0;
+        }
+
+        track.style.transform = `translateX(${positionRef.current}px)`;
+      }
+
+      requestAnimationFrame(animate);
+    };
+
+    requestAnimationFrame(animate);
+  }, []);
+
+  return (
+    <div className="carousel-wrapper">
+      <div
+        ref={trackRef}
+        className="carousel-track"
+        onMouseEnter={() => {
+          targetSpeedRef.current = 30; // desacelera 👈
+        }}
+        onMouseLeave={() => {
+          targetSpeedRef.current = 60; // volta ao normal 👈
+        }}
+      >
+        {images.concat(images).map((img, index) => (
+          <div className="carousel-item" key={index}>
+            <img src={img} alt="" />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Carousel;

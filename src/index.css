@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 60px; /* mais espaço lateral */
+  background: #ffffff;
+
+  height: 100px; /* altura maior igual Figma */
+  
+  border-bottom: 5px solid #6b1d1d;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px; /* aumenta bastante */
+  object-fit: contain;
+}
+
+/* NAV */
+.nav-links {
+  display: flex;
+  gap: 160px; /* mais espaçamento entre itens */
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 32px; /* ajusta pro Figma */
+  font-weight: 400;
+}
+
+/* hover suave */
+.nav-links a:hover {
+  color: #6b1d1d;
+}
+
+.carousel {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  background: #6b1d1d;
+}
+
+.item {
+  width: 200px;
+  height: 120px;
+  background: #ccc;
+  border-radius: 15px;
+}
