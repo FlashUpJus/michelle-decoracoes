@@ -1,0 +1,25 @@
+.map-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  gap: 40px;
+}
+
+.map-text {
+  flex: 1;
+}
+
+.map-text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.map-text p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.map-box {
+  flex: 1;
+}
