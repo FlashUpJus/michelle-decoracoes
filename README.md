@@ -1,16 +1,56 @@
-# React + Vite
+# Michelle Decorações
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site vitrine desenvolvido para apresentação de serviços e identidade visual da Michelle Decorações.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📝 Descrição
 
-## React Compiler
+Este projeto consiste em um site desenvolvido com **React + Vite**, com foco em design moderno, navegação simples e experiência do usuário.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo é apresentar informações da empresa de forma clara, organizada e responsiva.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Funcionalidades
+
+- Header com navegação 
+- Seção Showcase (destaque principal) 
+- Seção About Us 
+- Seção de equipe (Team Section) 
+- Seção de localização com mapa (Google Maps) 
+- Footer com informações adicionais 
+- Interatividade básica (animações e efeitos) 
+
+---
+
+## 🛠 Tecnologias utilizadas
+
+- [React](https://reactjs.org/) (Vite)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+---
+
+## 📱 Responsividade
+
+O site foi desenvolvido para funcionar perfeitamente em:
+- Desktop 🖥️
+- Tablet 📑
+- Mobile 📱
+
+---
+
+## 👥 Equipe
+
+- Isaac 
+- Enzo 
+- Joãoano 
+- Matheus 
+
+---
+
+## 🚀 Como executar o projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/michelle-decoracoes.git](https://github.com/seu-usuario/michelle-decoracoes.git)
