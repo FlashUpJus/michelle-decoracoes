@@ -1,0 +1,103 @@
+#michelle-footer-exclusivo {
+  background-color: #1a1a1a;
+  color: #f8f9fa;
+  padding: 60px 0 20px 0;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  /* NAO MUDA ISSO SE NAO VAZA TUDO: */
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.footer-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.footer-logo {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.footer-section h4 {
+  color: #d4af37; 
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.footer-section p, .footer-brand p {
+  color: #a0a0a0; 
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #a0a0a0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section a:hover {
+  color: #d4af37;
+}
+
+.social-placeholder {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.social-icon img {
+  filter: brightness(0) invert(1);
+  width: 20px;
+}
+
+.social-icon:hover {
+  background: #d4af37;
+  border-color: #d4af37;
+}
+
+/* ÁREA DO COPYRIGHT - RESOLVIDO */
+.footer-copy-container {
+  margin-top: 60px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.footer-copy-line {
+  height: 1px;
+  background-color: #333;
+  width: 80%; 
+  margin: 0 auto 20px auto; 
+}
+
+.footer-copy-container p {
+  color: #a0a0a0;
+  font-size: 0.8rem;
+}

@@ -3,6 +3,7 @@ import Carousel from "../components/Carousel";
 import MapSection from "../components/MapSection";
 import ProductSection from "../components/ProductSection";
 import Team from "../components/Team";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <ProductSection/>
       <MapSection />
       <Team/>
+     <Footer /> 
     </>
   );
 }
