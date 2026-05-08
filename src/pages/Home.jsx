@@ -4,6 +4,7 @@ import MapSection from "../components/MapSection";
 import ProductSection from "../components/ProductSection";
 import Team from "../components/Team";
 import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 function Home() {
   return (
@@ -11,9 +12,10 @@ function Home() {
       <Navbar />
       <Carousel />
       <ProductSection/>
-      <MapSection />
       <Team/>
-     <Footer /> 
+      <AboutUs/>
+      <MapSection />
+      <Footer/> 
     </>
   );
 }

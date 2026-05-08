@@ -14,7 +14,7 @@ const team = [
 export default function Team() {
   return (
     <section className="team">
-      <h1>Nossa Equipe</h1>
+      <h2>Nossa Equipe</h2>
       <p>Conheça nosso time</p>
 
       <div className="carousel">

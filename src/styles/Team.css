@@ -3,7 +3,7 @@
   padding: 60px 0;
 }
 
-.team h1 {
+.team h2 {
   font-size: 42px;
   margin-bottom: 10px;
 }
@@ -16,7 +16,7 @@
 /* CARROSSEL */
 .carousel {
   overflow: hidden;
-  width: 100%;
+  width: 95%;
 }
 
 .carousel-track {

@@ -14,7 +14,7 @@ function ProductSection() {
           <div className="product-item">
             <div className="product-left">
               <div className="product-image">
-                <img src="/img/cortina-rolo-white.jpg" alt="" />
+                <img src="/img/cortina-rolo-white.jpg" alt="cortina branca" />
               </div>
 
               <div className="product-buttons">
