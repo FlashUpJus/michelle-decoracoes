@@ -4,7 +4,7 @@ function MapSection() {
   return (
     <div className="map-container">
       <div className="map-text">
-        <h1>Como nos encontrar</h1>
+        <h2>Como nos encontrar</h2>
 
         <p><strong>Localização:</strong></p>
         <p>Rua Exemplo, 123</p>
