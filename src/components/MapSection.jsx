@@ -2,6 +2,7 @@ import "../styles/MapSection.css";
 
 function MapSection() {
   return (
+  <section id = "MapSection">
     <div className="map-container">
       <div className="map-text">
         <h2>Como nos encontrar</h2>
@@ -22,6 +23,7 @@ function MapSection() {
         ></iframe>
       </div>
     </div>
+  </section>
   );
 }
 

@@ -2,7 +2,7 @@ import "../styles/AboutUs.css";
 
 function AboutUs() {
   return (
-    <div>
+    <section id = "AboutUs">
       <div className="about-h2">
         <h2>Sobre nós</h2>
       </div>
@@ -32,7 +32,7 @@ function AboutUs() {
         </div>
       </div>
     </section>
-    </div>
+    </section>
   );
 }
 
