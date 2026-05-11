@@ -13,7 +13,7 @@ const team = [
 
 export default function Team() {
   return (
-    <section className="team">
+    <section id = "Team" className="team">
       <h2>Nossa Equipe</h2>
       <p>Conheça nosso time</p>
 

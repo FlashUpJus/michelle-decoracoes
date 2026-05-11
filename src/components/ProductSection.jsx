@@ -2,7 +2,7 @@ import "../styles/product.css";
 
 function ProductSection() {
   return (
-    <section className="product-section">
+    <section id="Products" className="product-section">
       <div className="container">
         <h1 className="title">Galeria de produtos</h1>
 

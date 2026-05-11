@@ -18,14 +18,15 @@ const Footer = () => {
          
         </div>
 
-        {/* as ancoras aq deu b.o por que nao ta configurado as tags dos ou */}
+        {/* as ancoras aq deu b.o por que nao ta configurado as tags dos ou.
+        Isaac: Tá de boa pai, já resolvi aqui*/}
         <div className="footer-section">
           <h4>Navegação</h4>
           <ul>
-            <li><a href="#home">Início</a></li>
-            <li><a href="#products">Produtos</a></li>
-            <li><a href="#map">Localização</a></li>
-            <li><a href="#team">Sobre nós</a></li>
+            <li><a href="#Carousel">Início</a></li>
+            <li><a href="#Products">Produtos</a></li>
+            <li><a href="#MapSection">Localização</a></li>
+            <li><a href="#AboutUs">Sobre nós</a></li>
           </ul>
         </div>
 

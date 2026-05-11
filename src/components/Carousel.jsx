@@ -48,15 +48,15 @@ function Carousel() {
   }, []);
 
   return (
-    <div className="carousel-wrapper">
+    <div id="Carousel" className="carousel-wrapper">
       <div
         ref={trackRef}
         className="carousel-track"
         onMouseEnter={() => {
-          targetSpeedRef.current = 30; // desacelera 👈
+          targetSpeedRef.current = 30;
         }}
         onMouseLeave={() => {
-          targetSpeedRef.current = 60; // volta ao normal 👈
+          targetSpeedRef.current = 60;
         }}
       >
         {images.concat(images).map((img, index) => (
