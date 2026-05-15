@@ -1,6 +1,7 @@
 .team {
   text-align: center;
   padding: 60px 0;
+  overflow-x: hidden;
 }
 
 .team h2 {
@@ -16,7 +17,8 @@
 /* CARROSSEL */
 .carousel {
   overflow: hidden;
-  width: 95%;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .carousel-track {
