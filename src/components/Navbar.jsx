@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/navbar.css";
 
 function Navbar() {
@@ -7,7 +8,7 @@ function Navbar() {
         <img src="/img/logo-michelle.png" alt="Michelle Decorações" />
       </div>
 
-      <nav className="nav-links">
+      <nav className="nav-links" aria-label="Navegacao principal">
         <a href="#Carousel">Início</a>
         <a href="#Products">Produtos</a>
         <a href="#Team">Nossa Equipe</a>

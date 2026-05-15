@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from "react";
+import React from "react";
+import { useEffect, useRef } from "react";
 import "../styles/carousel.css";
 
 const images = [
@@ -48,7 +49,11 @@ function Carousel() {
   }, []);
 
   return (
-    <div id="Carousel" className="carousel-wrapper">
+    <section
+      id="Carousel"
+      className="carousel-wrapper"
+      aria-label="Galeria em destaque"
+    >
       <div
         ref={trackRef}
         className="carousel-track"
@@ -61,11 +66,11 @@ function Carousel() {
       >
         {images.concat(images).map((img, index) => (
           <div className="carousel-item" key={index}>
-            <img src={img} alt="" />
+            <img src={img} alt="Ambiente decorado com cortina clara" />
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 
