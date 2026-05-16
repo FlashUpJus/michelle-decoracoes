@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/MapSection.css";
 
 function MapSection() {
@@ -16,6 +17,7 @@ function MapSection() {
       <div className="map-box">
         <iframe
           src="https://www.google.com/maps?q=Santa+Maria+RS&output=embed"
+          title="Mapa com a localizacao da Michelle Decoracoes em Santa Maria"
           width="100%"
           height="400"
           style={{ border: 0, borderRadius: "10px" }}

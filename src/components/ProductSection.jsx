@@ -1,10 +1,11 @@
+import React from "react";
 import "../styles/product.css";
 
 function ProductSection() {
   return (
     <section id="Products" className="product-section">
       <div className="container">
-        <h1 className="title">Galeria de produtos</h1>
+        <h2 className="title">Galeria de produtos</h2>
 
         <h2 className="category-title">Cortinas</h2>
 
@@ -39,7 +40,10 @@ function ProductSection() {
           <div className="product-item">
             <div className="product-left">
               <div className="product-image">
-                <img src="/img/cortina-rolo-white.jpg" alt="" />
+                <img
+                  src="/img/cortina-rolo-white.jpg"
+                  alt="Cortina branca para ambientes internos"
+                />
               </div>
 
               <div className="product-buttons">
@@ -64,7 +68,10 @@ function ProductSection() {
           <div className="product-item">
             <div className="product-left">
               <div className="product-image">
-                <img src="/img/cortina-rolo-white.jpg" alt="" />
+                <img
+                  src="/img/cortina-rolo-white.jpg"
+                  alt="Cortina branca com caimento suave"
+                />
               </div>
 
               <div className="product-buttons">
@@ -94,7 +101,10 @@ function ProductSection() {
           <div className="product-item">
             <div className="product-left">
               <div className="product-image">
-                <img src="/img/cortina-rolo-white.jpg" alt="" />
+                <img
+                  src="/img/cortina-rolo-white.jpg"
+                  alt="Tapete e cortina em ambiente decorado"
+                />
               </div>
 
               <div className="product-buttons">
@@ -119,7 +129,10 @@ function ProductSection() {
           <div className="product-item">
             <div className="product-left">
               <div className="product-image">
-                <img src="/img/cortina-rolo-white.jpg" alt="" />
+                <img
+                  src="/img/cortina-rolo-white.jpg"
+                  alt="Tapete para sala com acabamento elegante"
+                />
               </div>
 
               <div className="product-buttons">
@@ -144,7 +157,10 @@ function ProductSection() {
           <div className="product-item">
             <div className="product-left">
               <div className="product-image">
-                <img src="/img/cortina-rolo-white.jpg" alt="" />
+                <img
+                  src="/img/cortina-rolo-white.jpg"
+                  alt="Tapete decorativo para ambiente aconchegante"
+                />
               </div>
 
               <div className="product-buttons">
