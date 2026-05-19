@@ -7,7 +7,7 @@ function ProductSection() {
       <div className="container">
         <h2 className="title">Galeria de produtos</h2>
 
-        <h2 className="category-title">Cortinas</h2>
+        <h2 id="cortinas" className="category-title">Cortinas</h2>
 
         <div className="products-list">
 
@@ -19,8 +19,7 @@ function ProductSection() {
               </div>
 
               <div className="product-buttons">
-                <button className="btn-primary">
-                  Solicitar Orçamento
+                <button className="btn-primary" onClick={() => window.open('https://wa.me/5555981156479', '_blank')}> Solicitar Orçamento
                 </button>
                 <button className="btn-secondary">
                   Ver mais imagens
@@ -47,8 +46,7 @@ function ProductSection() {
               </div>
 
               <div className="product-buttons">
-                <button className="btn-primary">
-                  Solicitar Orçamento
+                <button className="btn-primary" onClick={() => window.open('https://wa.me/5555981156479', '_blank')}> Solicitar Orçamento
                 </button>
                 <button className="btn-secondary">
                   Ver mais imagens
@@ -75,8 +73,7 @@ function ProductSection() {
               </div>
 
               <div className="product-buttons">
-                <button className="btn-primary">
-                  Solicitar Orçamento
+                <button className="btn-primary" onClick={() => window.open('https://wa.me/5555981156479', '_blank')}> Solicitar Orçamento
                 </button>
                 <button className="btn-secondary">
                   Ver mais imagens
@@ -94,7 +91,7 @@ function ProductSection() {
 
         </div>
 
-        <h2 className="category-title">Tapetes</h2>
+        <h2 id="tapetes" className="category-title">Tapetes</h2>
         <div className="products-list">
 
           {/* PRODUTO 1 */}
@@ -108,8 +105,7 @@ function ProductSection() {
               </div>
 
               <div className="product-buttons">
-                <button className="btn-primary">
-                  Solicitar Orçamento
+                <button className="btn-primary" onClick={() => window.open('https://wa.me/5555981156479', '_blank')}> Solicitar Orçamento
                 </button>
                 <button className="btn-secondary">
                   Ver mais imagens
@@ -136,8 +132,7 @@ function ProductSection() {
               </div>
 
               <div className="product-buttons">
-                <button className="btn-primary">
-                  Solicitar Orçamento
+                <button className="btn-primary" onClick={() => window.open('https://wa.me/5555981156479', '_blank')}> Solicitar Orçamento
                 </button>
                 <button className="btn-secondary">
                   Ver mais imagens
@@ -164,8 +159,7 @@ function ProductSection() {
               </div>
 
               <div className="product-buttons">
-                <button className="btn-primary">
-                  Solicitar Orçamento
+                <button className="btn-primary" onClick={() => window.open('https://wa.me/5555981156479', '_blank')}> Solicitar Orçamento
                 </button>
                 <button className="btn-secondary">
                   Ver mais imagens

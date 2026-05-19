@@ -6,7 +6,6 @@
   padding: 20px 40px;
   background: #ffffff;
 
-  border-bottom: 5px solid #6b1d1d;
 }
 
 /* LOGO */
@@ -17,6 +16,24 @@
 
 .logo img {
   height: 60px;
+}
+
+/* NAV 2*/
+.nav-2links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background: #310b0b;
+}
+
+.nav-2links a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-2links a:hover {
+  text-decoration: underline;
 }
 
 /* NAV */
@@ -34,6 +51,7 @@
 /* hover suave */
 .nav-links a:hover {
   color: #6b1d1d;
+  text-decoration: underline;
 }
 
 @media (max-width: 900px) {

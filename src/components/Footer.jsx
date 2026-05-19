@@ -33,22 +33,22 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Contato</h4>
         
-          <p>📍 <a href="#map" style={{color: 'inherit', textDecoration: 'none'}}>Santa Maria, RS</a></p>
-          <p>📞 <a href="tel:55999999999" style={{color: 'inherit', textDecoration: 'none'}}>(55) 99999-9999</a></p>
-          <p>✉️ <a href="mailto:contato@michelle.com" style={{color: 'inherit', textDecoration: 'none'}}>contato@michelle.com</a></p>
+          <p>📍 <a href="#map" style={{color: 'inherit', textDecoration: 'none'}}>Santa Maria, RS - Rua Silva Jardim, 1560 - Nossa Sra. do Rosario</a></p>
+          <p>📞 <a href="tel:55999999999" style={{color: 'inherit', textDecoration: 'none'}}>(55)98115-6491</a></p>
+          <p>✉️ <a href="mailto:contato@michelle.com" style={{color: 'inherit', textDecoration: 'none'}}>vendas.michelledecoracoes@gmail.com</a></p>
         </div>
 
         <div className="footer-section">
           <h4>Siga-nos</h4>
           <div className="social-placeholder">
              {/* link real no href nao sei quais sao*/}
-             <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="social-icon">
+             <a href="https://www.instagram.com/lojamichelledecoracoes/" target="_blank" rel="noreferrer" className="social-icon">
                 <img src={instagram} alt="Instagram" />
              </a>
-             <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" className="social-icon">
+             <a href="https://www.facebook.com/lojamichelledecoracoes/?locale=pt_BR" target="_blank" rel="noreferrer" className="social-icon">
                 <img src={facebook} alt="Facebook" />
              </a>
-             <a href="https://wa.me/5555999999999" target="_blank" rel="noreferrer" className="social-icon">
+             <a href="https://wa.me/5555981156479" target="_blank" rel="noreferrer" className="social-icon">
                 <img src={whatsapp} alt="WhatsApp" />
              </a>
           </div>

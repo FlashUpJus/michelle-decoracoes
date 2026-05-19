@@ -9,14 +9,14 @@ function MapSection() {
         <h2>Como nos encontrar</h2>
 
         <p><strong>Localização:</strong></p>
-        <p>Rua Exemplo, 123</p>
+        <p>Rua Silva Jardim, 1560 - Nossa Sra. do Rosario</p>
         <p>Santa Maria - RS</p>
         <p>Brasil</p>
       </div>
 
       <div className="map-box">
         <iframe
-          src="https://www.google.com/maps?q=Santa+Maria+RS&output=embed"
+          src="https://www.google.com/maps?q=R.+Silva+Jardim,+1560,+Santa+Maria,+RS&output=embed"
           title="Mapa com a localizacao da Michelle Decoracoes em Santa Maria"
           width="100%"
           height="400"
