@@ -18,7 +18,7 @@ function Navbar() {
           <a href="#michelle-footer-exclusivo">Contato</a>
         </nav>
       </header>
-        <nav className="nav-2links" aria-label="Navegacao principal">
+        <nav className="nav-2links" aria-label="Categorias de produtos">
           <a href="#cortinas">Cortinas e Persianas</a>
           <a href="#tapetes">Tapetes</a>
           <a href="">Almofadas</a>
